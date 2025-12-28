@@ -338,18 +338,14 @@ const float INITIAL_CONV_FACTOR = 151.0;      // CPM to µSv/h
 
 ### 2. Akses Dashboard Monitoring
 
-**Web Dashboard Online:**
-```
-https://carlins-three.web.app/
-```
+**Web Dashboard Online:**  
+[https://carlins-three.web.app/](https://carlins-three.web.app/)
 
 **Dashboard Lokal (jika terkoneksi ke device):**
 ```
-Buka browser dan akses:
 http://[IP_ESP32_GEIGER]/
-
-IP Address akan ditampilkan di LCD atau Serial Monitor
 ```
+*IP Address akan ditampilkan di LCD atau Serial Monitor*
 
 **Dashboard Features:**
 - Real-time radiation level (CPS, CPM, µSv/h)
