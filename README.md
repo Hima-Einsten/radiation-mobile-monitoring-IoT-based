@@ -6,6 +6,8 @@
 
 > **Pengembangan Sistem Mobile Monitoring Radiasi Berbasis IoT Untuk Sarana Edukasi Pengukuran Radiasi Lingkungan**
 
+**🌐 Web Dashboard:** [https://carlins-three.web.app/](https://carlins-three.web.app/)
+
 Sistem monitoring radiasi real-time berbasis IoT yang menggunakan robot beroda untuk deteksi radiasi lingkungan secara mobile. Dirancang untuk keperluan edukasi dan monitoring area dengan dashboard web interaktif dan notifikasi Telegram.
 
 ---
@@ -335,12 +337,15 @@ const float INITIAL_CONV_FACTOR = 151.0;      // CPM to µSv/h
 3. Tunggu koneksi WiFi (indikasi di LCD)
 
 ### 2. Akses Dashboard Monitoring
-```
-Buka browser dan akses:
-http://[IP_ESP32_GEIGER]/
 
-IP Address akan ditampilkan di LCD atau Serial Monitor
+**Web Dashboard Online:**  
+[https://carlins-three.web.app/](https://carlins-three.web.app/)
+
+**Dashboard Lokal (jika terkoneksi ke device):**
 ```
+http://[IP_ESP32_GEIGER]/
+```
+*IP Address akan ditampilkan di LCD atau Serial Monitor*
 
 **Dashboard Features:**
 - Real-time radiation level (CPS, CPM, µSv/h)
